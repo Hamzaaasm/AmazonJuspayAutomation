@@ -30,7 +30,7 @@ public class CheckOut extends Base{
 			@FindBy(id="address-ui-widgets-enterAddressLine2")
 			WebElement street;
 			
-			@FindBy(id="//input[@aria-labelledby='address-ui-widgets-form-submit-button-announce']")
+			@FindBy(xpath="//input[@aria-labelledby='address-ui-widgets-form-submit-button-announce']")
 			WebElement useThisAddressBtn;
 			
 			
